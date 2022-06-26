@@ -1,0 +1,35 @@
+body{
+    background-color: #e3f2fd;
+    height: 140vh;
+}
+
+    .top_part::before{
+        content: "";
+        background-image: url("../images/bg\(notes\).jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.75;
+        z-index: -1;
+
+    }
+    .top_part{
+position: relative;
+padding:20px 30px;
+    }
+.container{
+    background-color: rgb(75, 137, 137);
+    border-radius: 10px;
+}
+.titles{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.noteCard:hover{
+    background-color: rgb(75, 137, 137);
+    color: #e3f2fd;
+}
